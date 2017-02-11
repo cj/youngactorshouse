@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "menus": {
+      ".read": true,
+      ".write": false
+    }
+  }
+}
