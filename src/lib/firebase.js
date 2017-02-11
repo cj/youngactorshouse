@@ -8,6 +8,6 @@ const firebaseApp = firebase.initializeApp({
   storageBucket:     process.env.FB_STORAGE_BUCKET,
   messagingSenderId: process.env.FB_MESSAGING_SENDER_ID
 })
-const db = firebaseApp.database()
+export const db = firebaseApp.database()
 
-export default db
+export default firebase

@@ -1,6 +1,6 @@
 {
   "rules": {
-    "menus": {
+    "navigations": {
       ".read": true,
       ".write": false
     }

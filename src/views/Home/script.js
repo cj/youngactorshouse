@@ -1,7 +1,9 @@
-import { mapGetters } from 'vuex'
+import { NAVIGATION } from '~/store/navigation'
 
 export default {
   computed: {
-    ...mapGetters(['menus'])
+    navigation () {
+      return this.$store.getters[NAVIGATION]('main')
+    }
   }
 }
